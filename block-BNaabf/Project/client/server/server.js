@@ -1,6 +1,6 @@
 var http =require("http");
 var fs=require("fs");
-var qs=require("qs");
+var qs=require("querystring");
 var server = http.createServer(handleRequest);
 
 function handleRequest(req,res){
